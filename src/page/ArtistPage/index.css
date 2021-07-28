@@ -1,0 +1,73 @@
+.AP-Container {
+    margin: 1%;
+}
+
+.AP-Table-Container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 2fr;
+}
+
+.cell {
+    border: solid 1px black;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-regular {
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-addnew {
+    background-color: blue;
+    margin: 1% 0;
+    color:white;
+    border: none;
+    padding:10px;
+    cursor:pointer;
+}
+.button-addnew:hover {
+    opacity: 50%;
+}
+
+.button-edit {
+    background-color: blue;
+    margin:5%;
+    color:white;
+    border: none;
+    padding:10px;
+    cursor:pointer;
+}
+.button-edit:hover {
+    opacity: 50%;
+}
+
+.button-delete {
+    background-color: red;
+    margin:5%;
+    color:white;
+    border: none;
+    padding:10px;
+    cursor:pointer;
+}
+.button-delete:hover {
+    opacity: 50%;
+}
